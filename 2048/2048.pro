@@ -9,3 +9,4 @@ SOURCES += main.cpp \
 HEADERS += \
     gamefield.h \
     constans.h
+    
