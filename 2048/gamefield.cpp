@@ -37,6 +37,6 @@ int *GameField::getColumm[](int i) // Возвращает состояние с
 void GameField::setLine(int i, int newLine[]) // Изменяет линию под номером i;
 {
     // TO DO
-    // Запилить нормально дело, епта. Вот ссылка на материал. А сейчас я пошел жрат готовить.
+    // Запилить нормально. Вот ссылка на материал.
     //https://tproger.ru/articles/15-mins-for-2048/
 }
