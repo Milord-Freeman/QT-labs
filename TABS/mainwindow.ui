@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>717</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>701</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>717</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action_newTable"/>
+    <addaction name="separator"/>
+    <addaction name="action_save"/>
+    <addaction name="action_load"/>
+    <addaction name="separator"/>
+    <addaction name="action_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Правка</string>
+    </property>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+    <addaction name="action_8"/>
+    <addaction name="separator"/>
+    <addaction name="action_13"/>
+    <addaction name="action_14"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Вид</string>
+    </property>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>Шрифт</string>
+     </property>
+     <widget class="QMenu" name="menu_5">
+      <property name="title">
+       <string>Вид</string>
+      </property>
+      <addaction name="action_19"/>
+      <addaction name="action_20"/>
+      <addaction name="action_21"/>
+      <addaction name="action_22"/>
+     </widget>
+     <addaction name="action_16"/>
+     <addaction name="action_17"/>
+     <addaction name="menu_5"/>
+    </widget>
+    <widget class="QMenu" name="menu_6">
+     <property name="title">
+      <string>Положение</string>
+     </property>
+     <addaction name="action_24"/>
+     <addaction name="action_25"/>
+     <addaction name="action_26"/>
+    </widget>
+    <addaction name="menu_4"/>
+    <addaction name="menu_6"/>
+   </widget>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <addaction name="action_27"/>
+   </widget>
+   <widget class="QMenu" name="menu_8">
+    <property name="title">
+     <string>Дебаг</string>
+    </property>
+    <addaction name="action_addRow"/>
+    <addaction name="action_addColumn"/>
+    <addaction name="separator"/>
+    <addaction name="action_delRow"/>
+    <addaction name="action_delColumn"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_7"/>
+   <addaction name="menu_8"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_save">
+   <property name="text">
+    <string>Сохранить таблицу</string>
+   </property>
+  </action>
+  <action name="action_load">
+   <property name="text">
+    <string>Загрузить таблицу</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Вырезать</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Копировать</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Вставить</string>
+   </property>
+  </action>
+  <action name="action_newTable">
+   <property name="text">
+    <string>Новая таблица</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>Отменить последнее действие</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>Повторить последнее действие</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="text">
+    <string>Название</string>
+   </property>
+  </action>
+  <action name="action_17">
+   <property name="text">
+    <string>Кегль</string>
+   </property>
+  </action>
+  <action name="action_19">
+   <property name="text">
+    <string>Жирный</string>
+   </property>
+  </action>
+  <action name="action_20">
+   <property name="text">
+    <string>Курсив</string>
+   </property>
+  </action>
+  <action name="action_21">
+   <property name="text">
+    <string>Подчеркнутый</string>
+   </property>
+  </action>
+  <action name="action_22">
+   <property name="text">
+    <string>Зачеркнутый</string>
+   </property>
+  </action>
+  <action name="action_24">
+   <property name="text">
+    <string>По левому краю</string>
+   </property>
+  </action>
+  <action name="action_25">
+   <property name="text">
+    <string>По центру</string>
+   </property>
+  </action>
+  <action name="action_26">
+   <property name="text">
+    <string>По правому краю</string>
+   </property>
+  </action>
+  <action name="action_27">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="action_addRow">
+   <property name="text">
+    <string>Добавить строку</string>
+   </property>
+  </action>
+  <action name="action_addColumn">
+   <property name="text">
+    <string>Добавить столбец</string>
+   </property>
+  </action>
+  <action name="action_delRow">
+   <property name="text">
+    <string>Удалить строку</string>
+   </property>
+  </action>
+  <action name="action_delColumn">
+   <property name="text">
+    <string>Удалить столбец</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
